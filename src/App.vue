@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
@@ -26,5 +28,12 @@
       color: #42b983;
     }
   }
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
 }
 </style>
